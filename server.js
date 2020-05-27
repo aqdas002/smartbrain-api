@@ -15,9 +15,9 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 const db=knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-infinite-79945',
     user : 'postgres',
-    password : '42911',
+    password : '',
     database : 'smart-brain'
   }
 });
